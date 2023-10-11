@@ -17,4 +17,4 @@ def primes(number_of_primes):
                 num+=1
             return list
     except ValueError:
-        print('Positive number expected for square root operation')
+        print('Positive number expected for list size')
