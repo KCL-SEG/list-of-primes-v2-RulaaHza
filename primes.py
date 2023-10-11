@@ -4,9 +4,9 @@
 def primes(number_of_primes):
         list = []
         num =2
-        if(number_of_primes <= 0):
+       if number_of_primes <= 0:
                 raise ValueError('Positive number expected for list size')
-        else:
+       else:
             while( len(list) < number_of_primes):
                 if num > 1:
                    for i in range(2, num):
