@@ -16,5 +16,5 @@ def primes(number_of_primes):
                 num+=1
             return list
         else:
-            except ValueError:
-                print('Positive number expected for list size')
+            raise ValueError ('Positive number expected for list size')
+                
